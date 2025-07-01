@@ -16,3 +16,7 @@ body.dark-mode {
 * {
   transition: all 0.2s ease;
 }
+
+html{
+  scroll-behavior: smooth;
+}
