@@ -1,5 +1,5 @@
 import React from 'react'
-
+import abt from '../assets/about_img.webp'
 
 
 const About = (props) => {
@@ -32,7 +32,7 @@ const About = (props) => {
         </div>
         <div className="flex items-center justify-center">
             <img 
-              src="src/assets/about_img.webp" 
+              src={abt}
               alt="about_image" 
               className={`max-w-full h-auto rounded-lg transition-transform duration-300 hover:scale-105 ${
                 props.mode === 'dark' ? 'shadow-amber-800/20' : 'shadow-md'
