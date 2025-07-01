@@ -1,0 +1,18 @@
+@import "tailwindcss/base";
+@import "tailwindcss/utilities";
+@import "tailwindcss/components";
+
+body {
+  color: #1a202c;
+  background-color: rgba(254, 243, 199, 0.3);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  color: #f7fafc;
+  background-color: #111827;
+}
+
+* {
+  transition: all 0.2s ease;
+}
